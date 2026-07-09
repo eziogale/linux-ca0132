@@ -1,3 +1,5 @@
+### ALSA: hda/ca0132: add QUIRK_GENERIC path for Gigabyte GA-Z170X-Gaming G1
+
 When I bought a Gigabyte GA-Z170X-Gaming G1 motherboard back in 2016, I didn't do it for gaming, but rather for its audio purity. However, I was unaware of how much anti-Linux Creative had become.
 
 It took me about a month just to get the rear panel line-out working. The solution came from a 2015 post by Takashi Iwai, which involved using the generic parser alongside a custom pintable found via `hdajacksensetest`. As Takashi noted at the time:
